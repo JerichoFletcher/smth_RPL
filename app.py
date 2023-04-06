@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return f"Hello from 13521107 add branch!"
+    return "Hello from 13521107 add branch!"
