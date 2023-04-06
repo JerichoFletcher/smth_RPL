@@ -40,7 +40,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: pkill -f 12043
+        script: pkill -f 21107
     - name: start flask app
       uses: appleboy/ssh-action@v0.1.8
       with:
